@@ -1,4 +1,7 @@
-h3 {
-  font-family: verdana;
-  font-weight: bold;
+* {
+  background-color: black;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
 }
