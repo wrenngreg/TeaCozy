@@ -1,7 +1,109 @@
 * {
   background-color: black;
   font-family: Helvetica;
-  font-size: 22px;
   color: seashell;
   opacity: 0.9;
+}
+
+div{
+  display: block;
+}
+
+.header_bar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+.logo img{
+  align-items: flex-start;
+  margin-left: 10px;
+  height: 50px;
+  width: auto;
+}
+
+.navoptions{
+  align-items: flex-end;
+  margin-right: 30px;
+  justify-content: space-around;
+  font-size: 22px;
+}
+
+.maincontent{
+  display: flex;
+  padding-top: 69px;
+  align-items: center;
+  justify-content: center;
+}
+
+.missionbackground{
+  display: flex;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  align-items: center;
+  justify-content: center;
+}
+
+.missionbanner{
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+}
+
+.totmchoices{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 1000px;
+}
+.teaofthemonth{
+  display: flex;
+  flex-direction: column;
+}
+
+.totmbanner{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.menuitem{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.totmchoicestop{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.totmchoicesbottom{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.item{
+  height: 200px;
+  width: 300px;
+}
+
+.menuitem h4{
+  margin-top: 10px;
+}
+
+.menuitem img{
+  max-width: 100%;
+  max-height: 100%;
 }
